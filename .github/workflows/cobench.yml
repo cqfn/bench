@@ -13,14 +13,7 @@ jobs:
         with:
           ruby-version: 2.7
       - run: gem install cobench
-      - run: |
-          cobench \
-            --to gh-pages \
-            --token ${{ secrets.TOKEN }} \
-            --coder yegor256 \
-            --coder graur \
-            --include objectionary/* \
-            --include cqfn/*
+      - run: cobench --to gh-pages --verbose --token ${{ secrets.TOKEN }}
       - uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
