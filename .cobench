@@ -1,6 +1,8 @@
 --include=objectionary/*
 --include=cqfn/*
 --include=yegor256/qulice
+--include=yegor256/rultor
+--include=polystat/*
 --coder=yegor256
 --coder=graur
 --coder=mximp
