@@ -3,7 +3,6 @@ name: cobench
 on:
   schedule:
     - cron: "23 23 * * *"
-on:
   push:
     branches:
       - master
