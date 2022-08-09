@@ -1,0 +1,28 @@
+---
+name: cobench
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem install cobench
+      - run: |
+          cobench \
+            --to gh-pages \
+            --token ${{ secrets.TOKEN }} \
+            --coder yegor256 \
+            --coder graur \
+            --include objectionary/* \
+            --include cqfn/*
+      - uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: gh-pages
+          clean: false
