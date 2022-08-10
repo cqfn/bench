@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2022-08-10 06:47:51 +0000" days="21">
+<cobench time="2022-08-10 07:07:23 +0000" days="21">
   <coders>
     <coder id="yegor256">
       <metrics>
         <m id="pulls" href="https://github.com/search?q=yegor256+in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+closed%3A%3E2022-07-20">3</m>
-        <m id="issues" href="https://github.com/search?q=yegor256+in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-07-20">24</m>
+        <m id="issues" href="https://github.com/search?q=yegor256+in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-07-20">27</m>
       </metrics>
     </coder>
     <coder id="graur">
@@ -15,7 +15,7 @@
     </coder>
     <coder id="mximp">
       <metrics>
-        <m id="pulls" href="https://github.com/search?q=mximp+in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+closed%3A%3E2022-07-20">6</m>
+        <m id="pulls" href="https://github.com/search?q=mximp+in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+closed%3A%3E2022-07-20">7</m>
         <m id="issues" href="https://github.com/search?q=mximp+in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-07-20">2</m>
       </metrics>
     </coder>
