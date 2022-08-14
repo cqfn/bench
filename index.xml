@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2022-08-14 17:43:17 +0000" days="21">
+<cobench time="2022-08-14 17:50:38 +0000" days="21">
   <titles>
+    <title>Pulls</title>
+    <title>HoC</title>
+    <title>Issues</title>
     <title>Pulls</title>
     <title>HoC</title>
     <title>Issues</title>
@@ -91,6 +94,13 @@
         <m id="Pulls" href="https://github.com/search?q=olesiasub+in%3Acomments+type%3Apr+author%3Aolesiasub+is%3Amerged+closed%3A%3E2022-07-24">1</m>
         <m id="HoC" href="">849</m>
         <m id="Issues" href="https://github.com/search?q=olesiasub+in%3Acomments+type%3Aissue+author%3Aolesiasub+created%3A%3E2022-07-24">2</m>
+      </metrics>
+    </coder>
+    <coder id="kerelape">
+      <metrics>
+        <m id="Pulls" href="https://github.com/search?q=kerelape+in%3Acomments+type%3Apr+author%3Akerelape+is%3Amerged+closed%3A%3E2022-07-24">2</m>
+        <m id="HoC" href="">86</m>
+        <m id="Issues" href="https://github.com/search?q=kerelape+in%3Acomments+type%3Aissue+author%3Akerelape+created%3A%3E2022-07-24">2</m>
       </metrics>
     </coder>
     <coder id="potatmen">
