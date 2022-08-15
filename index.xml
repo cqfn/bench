@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2022-08-15 06:29:37 +0000" days="21">
+<cobench time="2022-08-15 08:15:29 +0000" days="21">
   <titles>
+    <title>Pulls</title>
+    <title>HoC</title>
+    <title>Commits</title>
+    <title>Issues</title>
+    <title>Score</title>
     <title>Pulls</title>
     <title>HoC</title>
     <title>Commits</title>
@@ -91,10 +96,10 @@
     <coder id="yegor256">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+closed%3A%3E2022-07-25">5</m>
-        <m id="HoC" href="">20634</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-07-25">235</m>
+        <m id="HoC" href="">20914</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-07-25">238</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-07-25">43</m>
-        <m id="Score" href="">24459</m>
+        <m id="Score" href="">24754</m>
       </metrics>
     </coder>
     <coder id="graur">
@@ -194,6 +199,15 @@
         <m id="Commits" href="https://github.com/search?q=author%3Akarina5005+author-date%3A%3E2022-07-25">0</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akarina5005+created%3A%3E2022-07-25">0</m>
         <m id="Score" href="">278</m>
+      </metrics>
+    </coder>
+    <coder id="anisimova5005">
+      <metrics>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aanisimova5005+is%3Amerged+closed%3A%3E2022-07-25">0</m>
+        <m id="HoC" href="">3740</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aanisimova5005+author-date%3A%3E2022-07-25">5</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aanisimova5005+created%3A%3E2022-07-25">0</m>
+        <m id="Score" href="">3765</m>
       </metrics>
     </coder>
     <coder id="levbagryansky">
