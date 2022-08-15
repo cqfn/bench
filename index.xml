@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2022-08-15 03:44:12 +0000" days="21">
+<cobench time="2022-08-15 04:23:57 +0000" days="21">
   <titles>
     <title>Pulls</title>
     <title>HoC</title>
@@ -91,28 +91,28 @@
     <coder id="yegor256">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+closed%3A%3E2022-07-25">5</m>
-        <m id="HoC" href="">189</m>
+        <m id="HoC" href="">20634</m>
         <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-07-25">235</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-07-25">43</m>
-        <m id="Score" href="">4014</m>
+        <m id="Score" href="">24459</m>
       </metrics>
     </coder>
     <coder id="graur">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Agraur+is%3Amerged+closed%3A%3E2022-07-25">27</m>
-        <m id="HoC" href="">4252</m>
+        <m id="HoC" href="">10129</m>
         <m id="Commits" href="https://github.com/search?q=author%3Agraur+author-date%3A%3E2022-07-25">67</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Agraur+created%3A%3E2022-07-25">17</m>
-        <m id="Score" href="">8137</m>
+        <m id="Score" href="">14014</m>
       </metrics>
     </coder>
     <coder id="mximp">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+closed%3A%3E2022-07-25">5</m>
-        <m id="HoC" href="">756</m>
+        <m id="HoC" href="">1184</m>
         <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-07-25">1</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-07-25">4</m>
-        <m id="Score" href="">1461</m>
+        <m id="Score" href="">1889</m>
       </metrics>
     </coder>
     <coder id="andreoss">
@@ -127,46 +127,46 @@
     <coder id="eugenedar">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aeugenedar+is%3Amerged+closed%3A%3E2022-07-25">8</m>
-        <m id="HoC" href="">2541</m>
+        <m id="HoC" href="">5314</m>
         <m id="Commits" href="https://github.com/search?q=author%3Aeugenedar+author-date%3A%3E2022-07-25">32</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aeugenedar+created%3A%3E2022-07-25">5</m>
-        <m id="Score" href="">3751</m>
+        <m id="Score" href="">6524</m>
       </metrics>
     </coder>
     <coder id="olesiasub">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolesiasub+is%3Amerged+closed%3A%3E2022-07-25">1</m>
-        <m id="HoC" href="">849</m>
+        <m id="HoC" href="">4595</m>
         <m id="Commits" href="https://github.com/search?q=author%3Aolesiasub+author-date%3A%3E2022-07-25">7</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolesiasub+created%3A%3E2022-07-25">5</m>
-        <m id="Score" href="">1234</m>
+        <m id="Score" href="">4980</m>
       </metrics>
     </coder>
     <coder id="kerelape">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akerelape+is%3Amerged+closed%3A%3E2022-07-25">4</m>
-        <m id="HoC" href="">433</m>
+        <m id="HoC" href="">866</m>
         <m id="Commits" href="https://github.com/search?q=author%3Akerelape+author-date%3A%3E2022-07-25">8</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akerelape+created%3A%3E2022-07-25">1</m>
-        <m id="Score" href="">923</m>
+        <m id="Score" href="">1356</m>
       </metrics>
     </coder>
     <coder id="potatmen">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apotatmen+is%3Amerged+closed%3A%3E2022-07-25">1</m>
-        <m id="HoC" href="">1667</m>
+        <m id="HoC" href="">1687</m>
         <m id="Commits" href="https://github.com/search?q=author%3Apotatmen+author-date%3A%3E2022-07-25">5</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apotatmen+created%3A%3E2022-07-25">2</m>
-        <m id="Score" href="">1892</m>
+        <m id="Score" href="">1912</m>
       </metrics>
     </coder>
     <coder id="yasamprom">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayasamprom+is%3Amerged+closed%3A%3E2022-07-25">2</m>
-        <m id="HoC" href="">183</m>
+        <m id="HoC" href="">1344</m>
         <m id="Commits" href="https://github.com/search?q=author%3Ayasamprom+author-date%3A%3E2022-07-25">37</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayasamprom+created%3A%3E2022-07-25">1</m>
-        <m id="Score" href="">618</m>
+        <m id="Score" href="">1779</m>
       </metrics>
     </coder>
     <coder id="includealex">
@@ -199,19 +199,19 @@
     <coder id="levbagryansky">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+closed%3A%3E2022-07-25">2</m>
-        <m id="HoC" href="">161</m>
+        <m id="HoC" href="">324</m>
         <m id="Commits" href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2022-07-25">10</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2022-07-25">13</m>
-        <m id="Score" href="">1061</m>
+        <m id="Score" href="">1224</m>
       </metrics>
     </coder>
     <coder id="maxonfjvipon">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+closed%3A%3E2022-07-25">3</m>
-        <m id="HoC" href="">205</m>
+        <m id="HoC" href="">799</m>
         <m id="Commits" href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2022-07-25">15</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2022-07-25">3</m>
-        <m id="Score" href="">730</m>
+        <m id="Score" href="">1324</m>
       </metrics>
     </coder>
     <coder id="mcjohn974">
@@ -226,10 +226,10 @@
     <coder id="mikhaillipanin">
       <metrics>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amikhaillipanin+is%3Amerged+closed%3A%3E2022-07-25">2</m>
-        <m id="HoC" href="">1530</m>
+        <m id="HoC" href="">5953</m>
         <m id="Commits" href="https://github.com/search?q=author%3Amikhaillipanin+author-date%3A%3E2022-07-25">25</m>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amikhaillipanin+created%3A%3E2022-07-25">6</m>
-        <m id="Score" href="">2155</m>
+        <m id="Score" href="">6578</m>
       </metrics>
     </coder>
     <coder id="mnj2kk">
