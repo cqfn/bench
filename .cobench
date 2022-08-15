@@ -5,6 +5,7 @@
 --include=yegor256/rultor
 --include=yegor256/xsline
 --include=yegor256/tojos
+--include=artipie/*
 --coder=yegor256
 --coder=graur
 --coder=mximp
@@ -17,9 +18,13 @@
 --coder=includealex
 --coder=ivan-egorov42
 --coder=karina5005
---coder=Anisimova5005
 --coder=levbagryansky
 --coder=maxonfjvipon
 --coder=mcjohn974
 --coder=mikhaillipanin
 --coder=mnj2kk
+--coder=ndpopov
+--coder=olenagerasimova
+--coder=dgarus
+--coder=Swizbiz
+--coder=ChGen
