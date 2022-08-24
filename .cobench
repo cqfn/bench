@@ -4,6 +4,7 @@
 --include=polystat/*
 --include=saveourtool/*
 --include=yegor256/qulice
+--include=yegor256/cam
 --include=yegor256/rultor
 --include=yegor256/tojos
 --include=yegor256/xsline
