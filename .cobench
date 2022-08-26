@@ -3,6 +3,7 @@
 --include=objectionary/*
 --include=polystat/*
 --include=saveourtool/*
+--include=unified-ast/*
 --include=yegor256/qulice
 --include=yegor256/cam
 --include=yegor256/rultor
