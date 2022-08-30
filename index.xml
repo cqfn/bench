@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2022-08-29 16:50:49 +0000" days="21">
+<cobench time="2022-08-30 00:17:39 +0000" days="21">
   <titles>
     <title>Issues</title>
     <title>Reviews</title>
@@ -231,9 +231,9 @@
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-08-08">33</m>
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2022-08-08">8</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2022-08-08">1</m>
-        <m id="HoC" href="">5047</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">109</m>
-        <m id="Score" href="">8042</m>
+        <m id="HoC" href="">4304</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">100</m>
+        <m id="Score" href="">7254</m>
       </metrics>
     </coder>
     <coder id="0x6675636b796f75676974687562" details="Andrey Shcheglov">
@@ -241,19 +241,19 @@
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3A0x6675636b796f75676974687562+created%3A%3E2022-08-08">6</m>
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3A0x6675636b796f75676974687562+merged%3A%3E2022-08-08">0</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3A0x6675636b796f75676974687562+is%3Amerged+merged%3A%3E2022-08-08">6</m>
-        <m id="HoC" href="" actual="16281">12800</m>
-        <m id="Commits" href="https://github.com/search?q=author%3A0x6675636b796f75676974687562+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">25</m>
-        <m id="Score" href="">14425</m>
+        <m id="HoC" href="" actual="16297">13312</m>
+        <m id="Commits" href="https://github.com/search?q=author%3A0x6675636b796f75676974687562+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">26</m>
+        <m id="Score" href="">14942</m>
       </metrics>
     </coder>
     <coder id="akuleshov7" details="Andrey Kuleshov">
       <metrics>
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aakuleshov7+created%3A%3E2022-08-08">15</m>
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aakuleshov7+merged%3A%3E2022-08-08">12</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aakuleshov7+is%3Amerged+merged%3A%3E2022-08-08">5</m>
-        <m id="HoC" href="" actual="5672">2560</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Aakuleshov7+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">5</m>
-        <m id="Score" href="">5235</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aakuleshov7+is%3Amerged+merged%3A%3E2022-08-08">6</m>
+        <m id="HoC" href="" actual="14342">3072</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aakuleshov7+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">6</m>
+        <m id="Score" href="">5952</m>
       </metrics>
     </coder>
     <coder id="andrewt0301" details="Andrei Tatarnikov">
@@ -422,167 +422,167 @@
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2022-08-08">15</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akgevorkyan+is%3Amerged+merged%3A%3E2022-08-08">5</m>
         <m id="HoC" href="">538</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Akgevorkyan+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">5</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Akgevorkyan+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">5</m>
         <m id="Score" href="">2788</m>
       </metrics>
     </coder>
     <coder id="kniazkov" details="Ivan Kniazkov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akniazkov+created%3A%3E2022-08-08">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akniazkov+merged%3A%3E2022-08-08">1</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akniazkov+is%3Amerged+merged%3A%3E2022-08-08">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akniazkov+created%3A%3E2022-08-09">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akniazkov+merged%3A%3E2022-08-09">1</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akniazkov+is%3Amerged+merged%3A%3E2022-08-09">0</m>
         <m id="HoC" href="">0</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Akniazkov+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Akniazkov+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">0</m>
         <m id="Score" href="">75</m>
       </metrics>
     </coder>
     <coder id="levbagryansky" details="Lev Bagryansky">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2022-08-08">12</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Alevbagryansky+merged%3A%3E2022-08-08">3</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+merged%3A%3E2022-08-08">12</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2022-08-09">13</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Alevbagryansky+merged%3A%3E2022-08-09">3</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+merged%3A%3E2022-08-09">12</m>
         <m id="HoC" href="">12013</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">65</m>
-        <m id="Score" href="">15563</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">65</m>
+        <m id="Score" href="">15613</m>
       </metrics>
     </coder>
     <coder id="maxonfjvipon" details="Max Trunnikov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2022-08-08">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2022-08-08">1</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2022-08-08">4</m>
-        <m id="HoC" href="">624</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">12</m>
-        <m id="Score" href="">1559</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2022-08-09">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2022-08-09">1</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2022-08-09">2</m>
+        <m id="HoC" href="">288</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">9</m>
+        <m id="Score" href="">808</m>
       </metrics>
     </coder>
     <coder id="mcjohn974" details="Viktar Makouski">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amcjohn974+created%3A%3E2022-08-08">1</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amcjohn974+merged%3A%3E2022-08-08">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amcjohn974+is%3Amerged+merged%3A%3E2022-08-08">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amcjohn974+created%3A%3E2022-08-09">1</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amcjohn974+merged%3A%3E2022-08-09">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amcjohn974+is%3Amerged+merged%3A%3E2022-08-09">0</m>
         <m id="HoC" href="">0</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amcjohn974+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amcjohn974+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">0</m>
         <m id="Score" href="">50</m>
       </metrics>
     </coder>
     <coder id="mikhaillipanin" details="Mikhail Lipanin">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amikhaillipanin+created%3A%3E2022-08-08">4</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amikhaillipanin+merged%3A%3E2022-08-08">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amikhaillipanin+is%3Amerged+merged%3A%3E2022-08-08">4</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amikhaillipanin+created%3A%3E2022-08-09">4</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amikhaillipanin+merged%3A%3E2022-08-09">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amikhaillipanin+is%3Amerged+merged%3A%3E2022-08-09">4</m>
         <m id="HoC" href="">4929</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amikhaillipanin+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">19</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amikhaillipanin+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">19</m>
         <m id="Score" href="">6024</m>
       </metrics>
     </coder>
     <coder id="mnj2kk" details="Ayrat Sharipov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amnj2kk+created%3A%3E2022-08-08">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amnj2kk+merged%3A%3E2022-08-08">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amnj2kk+is%3Amerged+merged%3A%3E2022-08-08">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amnj2kk+created%3A%3E2022-08-09">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amnj2kk+merged%3A%3E2022-08-09">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amnj2kk+is%3Amerged+merged%3A%3E2022-08-09">0</m>
         <m id="HoC" href="">0</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amnj2kk+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amnj2kk+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">0</m>
         <m id="Score" href="">0</m>
       </metrics>
     </coder>
     <coder id="mximp" details="Max Petrov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-08-08">10</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2022-08-08">11</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2022-08-08">8</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-08-09">9</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2022-08-09">11</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2022-08-09">8</m>
         <m id="HoC" href="">3621</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">10</m>
-        <m id="Score" href="">6596</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">10</m>
+        <m id="Score" href="">6546</m>
       </metrics>
     </coder>
     <coder id="nulls" details="Nariman Abdullin">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anulls+created%3A%3E2022-08-08">11</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Anulls+merged%3A%3E2022-08-08">35</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anulls+is%3Amerged+merged%3A%3E2022-08-08">9</m>
-        <m id="HoC" href="" actual="14586">7680</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Anulls+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">15</m>
-        <m id="Score" href="">12730</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anulls+created%3A%3E2022-08-09">11</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Anulls+merged%3A%3E2022-08-09">33</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anulls+is%3Amerged+merged%3A%3E2022-08-09">9</m>
+        <m id="HoC" href="" actual="14154">4608</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Anulls+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">9</m>
+        <m id="Score" href="">9478</m>
       </metrics>
     </coder>
     <coder id="olenagerasimova" details="Alena">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolenagerasimova+created%3A%3E2022-08-08">5</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aolenagerasimova+merged%3A%3E2022-08-08">14</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolenagerasimova+is%3Amerged+merged%3A%3E2022-08-08">14</m>
-        <m id="HoC" href="" actual="7168">6656</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Aolenagerasimova+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">13</m>
-        <m id="Score" href="">10821</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolenagerasimova+created%3A%3E2022-08-09">5</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aolenagerasimova+merged%3A%3E2022-08-09">13</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolenagerasimova+is%3Amerged+merged%3A%3E2022-08-09">13</m>
+        <m id="HoC" href="" actual="6748">6144</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aolenagerasimova+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">12</m>
+        <m id="Score" href="">10029</m>
       </metrics>
     </coder>
     <coder id="olesiasub" details="Olesia Subbotina">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolesiasub+created%3A%3E2022-08-08">6</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aolesiasub+merged%3A%3E2022-08-08">1</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolesiasub+is%3Amerged+merged%3A%3E2022-08-08">6</m>
-        <m id="HoC" href="">14755</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Aolesiasub+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">80</m>
-        <m id="Score" href="">16730</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolesiasub+created%3A%3E2022-08-09">6</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aolesiasub+merged%3A%3E2022-08-09">1</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolesiasub+is%3Amerged+merged%3A%3E2022-08-09">6</m>
+        <m id="HoC" href="">14686</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aolesiasub+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">74</m>
+        <m id="Score" href="">16631</m>
       </metrics>
     </coder>
     <coder id="petertrr" details="Peter Trifanov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apetertrr+created%3A%3E2022-08-08">13</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Apetertrr+merged%3A%3E2022-08-08">50</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apetertrr+is%3Amerged+merged%3A%3E2022-08-08">14</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apetertrr+created%3A%3E2022-08-09">13</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Apetertrr+merged%3A%3E2022-08-09">47</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apetertrr+is%3Amerged+merged%3A%3E2022-08-09">14</m>
         <m id="HoC" href="" actual="7488">7168</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Apetertrr+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">14</m>
-        <m id="Score" href="">14438</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Apetertrr+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">14</m>
+        <m id="Score" href="">14213</m>
       </metrics>
     </coder>
     <coder id="pollyvolk" details="">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apollyvolk+created%3A%3E2022-08-08">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Apollyvolk+merged%3A%3E2022-08-08">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apollyvolk+is%3Amerged+merged%3A%3E2022-08-08">10</m>
-        <m id="HoC" href="" actual="317329">11264</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Apollyvolk+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">22</m>
-        <m id="Score" href="">13374</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apollyvolk+created%3A%3E2022-08-09">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Apollyvolk+merged%3A%3E2022-08-09">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apollyvolk+is%3Amerged+merged%3A%3E2022-08-09">7</m>
+        <m id="HoC" href="" actual="103022">9728</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Apollyvolk+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">19</m>
+        <m id="Score" href="">11223</m>
       </metrics>
     </coder>
     <coder id="potatmen" details="Anton Shatokhin">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apotatmen+created%3A%3E2022-08-08">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Apotatmen+merged%3A%3E2022-08-08">1</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apotatmen+is%3Amerged+merged%3A%3E2022-08-08">3</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apotatmen+created%3A%3E2022-08-09">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Apotatmen+merged%3A%3E2022-08-09">1</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apotatmen+is%3Amerged+merged%3A%3E2022-08-09">3</m>
         <m id="HoC" href="">312</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Apotatmen+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">1</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Apotatmen+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">1</m>
         <m id="Score" href="">992</m>
       </metrics>
     </coder>
     <coder id="sanyavertolet" details="Alexander Frolov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Asanyavertolet+created%3A%3E2022-08-08">6</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Asanyavertolet+merged%3A%3E2022-08-08">22</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Asanyavertolet+is%3Amerged+merged%3A%3E2022-08-08">13</m>
-        <m id="HoC" href="" actual="15712">6656</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Asanyavertolet+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">13</m>
-        <m id="Score" href="">11271</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Asanyavertolet+created%3A%3E2022-08-09">6</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Asanyavertolet+merged%3A%3E2022-08-09">21</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Asanyavertolet+is%3Amerged+merged%3A%3E2022-08-09">11</m>
+        <m id="HoC" href="" actual="12530">5632</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Asanyavertolet+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">11</m>
+        <m id="Score" href="">9762</m>
       </metrics>
     </coder>
     <coder id="yasamprom" details="Stepan Strunkov">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayasamprom+created%3A%3E2022-08-08">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayasamprom+merged%3A%3E2022-08-08">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayasamprom+is%3Amerged+merged%3A%3E2022-08-08">5</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayasamprom+created%3A%3E2022-08-09">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayasamprom+merged%3A%3E2022-08-09">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayasamprom+is%3Amerged+merged%3A%3E2022-08-09">5</m>
         <m id="HoC" href="">844</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayasamprom+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">8</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayasamprom+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">8</m>
         <m id="Score" href="">1884</m>
       </metrics>
     </coder>
     <coder id="nypiaka" details="Nypiaka">
       <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anypiaka+created%3A%3E2022-08-08">1</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Anypiaka+merged%3A%3E2022-08-08">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anypiaka+is%3Amerged+merged%3A%3E2022-08-08">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anypiaka+created%3A%3E2022-08-09">1</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Anypiaka+merged%3A%3E2022-08-09">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anypiaka+is%3Amerged+merged%3A%3E2022-08-09">0</m>
         <m id="HoC" href="">0</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Anypiaka+author-date%3A%3E2022-08-08+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Anypiaka+author-date%3A%3E2022-08-09+is%3Apublic+merge%3Afalse">0</m>
         <m id="Score" href="">50</m>
       </metrics>
     </coder>
