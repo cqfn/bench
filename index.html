@@ -1,596 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>cobench</title>
-<meta charset="UTF-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<link rel="icon" href="https://raw.githubusercontent.com/yegor256/cobench/master/logo.svg" type="image/svg">
-<link href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/gh/yegor256/drops@gh-pages/drops.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script><script type="text/javascript">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>cobench</title>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="icon" href="https://raw.githubusercontent.com/yegor256/cobench/master/logo.svg" type="image/svg"/>
+    <link href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/gh/yegor256/drops@gh-pages/drops.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"/>
+    <script type="text/javascript">
           $(function() {
             $("#metrics").tablesorter();
           });
-        </script><style>
+        </script>
+    <style>
           td, th { font-family: monospace; font-size: 18px; }
           .num { text-align: right; }
           .left { border-bottom: 0; }
+          section { width: 100%; }
           header { text-align: center; }
           footer { text-align: center; font-size: 0.8em; line-height: 1.2em; color: gray; }
-          article { width: 60em; border: 0; }
+          article { border: 0; }
           td.avatar { vertical-align: middle; text-align: center; }
           td.avatar img { width: 1.5em; height: 1.5em; vertical-align: middle; }
           .subtitle { font-size: 0.8em; line-height: 1em; color: gray; }
           .sorter { cursor: pointer; }
         </style>
-</head>
-<body><section><header><p><a href=""><img src="https://raw.githubusercontent.com/yegor256/cobench/master/logo.svg" style="width:64px"></a></p></header><article><table id="metrics">
-<thead><tr>
-<th colspan="2"></th>
-<th class="sorter num">Commits</th>
-<th class="sorter num">HoC</th>
-<th class="sorter num">HpC</th>
-<th class="sorter num">HpP</th>
-<th class="sorter num">Issues</th>
-<th class="sorter num">Pulls</th>
-<th class="sorter num">Reviews</th>
-<th class="sorter num">Score</th>
-</tr></thead>
-<tbody>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/yegor256/64-64"></td>
-<td>
-<a href="https://github.com/yegor256">@yegor256</a><br><span class="subtitle">Yegor Bugayenko</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">92</a></td>
-<td class="num">
-<span class="firebrick">0</span><br><span class="subtitle" title="The actual value of the metric was capped">3755</span>
-</td>
-<td class="num">40</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-08-12">31</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2022-08-12">7</a></td>
-<td class="num">3060</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/0x6675636b796f75676974687562/64-64"></td>
-<td>
-<a href="https://github.com/0x6675636b796f75676974687562">@0x6675636b796f75676974687562</a><br><span class="subtitle">Andrey Shcheglov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3A0x6675636b796f75676974687562+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">21</a></td>
-<td class="num">
-<span class="firebrick">1024</span><br><span class="subtitle" title="The actual value of the metric was capped">2415</span>
-</td>
-<td class="num">115</td>
-<td class="num">2415</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3A0x6675636b796f75676974687562+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3A0x6675636b796f75676974687562+is%3Amerged+merged%3A%3E2022-08-12">1</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3A0x6675636b796f75676974687562+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">1379</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/akuleshov7/64-64"></td>
-<td>
-<a href="https://github.com/akuleshov7">@akuleshov7</a><br><span class="subtitle">Andrey Kuleshov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aakuleshov7+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">7</a></td>
-<td class="num">
-<span class="firebrick">7168</span><br><span class="subtitle" title="The actual value of the metric was capped">14596</span>
-</td>
-<td class="num">2085</td>
-<td class="num">2085</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aakuleshov7+created%3A%3E2022-08-12">16</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aakuleshov7+is%3Amerged+merged%3A%3E2022-08-12">7</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aakuleshov7+merged%3A%3E2022-08-12">15</a></td>
-<td class="num">12003</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/andrewt0301/64-64"></td>
-<td>
-<a href="https://github.com/andrewt0301">@andrewt0301</a><br><span class="subtitle">Andrei Tatarnikov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aandrewt0301+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a></td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandrewt0301+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandrewt0301+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aandrewt0301+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">0</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/anisimova5005/64-64"></td>
-<td>
-<a href="https://github.com/anisimova5005">@anisimova5005</a><br><span class="subtitle"></span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aanisimova5005+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a></td>
-<td class="num">
-<span class="firebrick">0</span><br><span class="subtitle" title="The actual value of the metric was capped">79</span>
-</td>
-<td class="num">79</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aanisimova5005+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aanisimova5005+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aanisimova5005+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">5</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/arrgentum/64-64"></td>
-<td>
-<a href="https://github.com/arrgentum">@arrgentum</a><br><span class="subtitle">Alexey Votintsev</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aarrgentum+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a></td>
-<td class="num">96</td>
-<td class="num">96</td>
-<td class="num">96</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aarrgentum+created%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aarrgentum+is%3Amerged+merged%3A%3E2022-08-12">1</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aarrgentum+merged%3A%3E2022-08-12">1</a></td>
-<td class="num">601</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/cheshiriks/64-64"></td>
-<td>
-<a href="https://github.com/cheshiriks">@cheshiriks</a><br><span class="subtitle">Vladislav Frolov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Acheshiriks+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">2</a></td>
-<td class="num">1868</td>
-<td class="num">934</td>
-<td class="num">934</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Acheshiriks+created%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Acheshiriks+is%3Amerged+merged%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Acheshiriks+merged%3A%3E2022-08-12">2</a></td>
-<td class="num">2778</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/chgen/64-64"></td>
-<td>
-<a href="https://github.com/chgen">@chgen</a><br><span class="subtitle">Evgeny Chugunnyy (John)</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Achgen+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">4</a></td>
-<td class="num">274</td>
-<td class="num">68</td>
-<td class="num">68</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Achgen+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Achgen+is%3Amerged+merged%3A%3E2022-08-12">4</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Achgen+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">1294</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/swizbiz/64-64"></td>
-<td>
-<a href="https://github.com/swizbiz">@swizbiz</a><br><span class="subtitle">Aleksei Borodin</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aswizbiz+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">52</a></td>
-<td class="num">33876</td>
-<td class="num">651</td>
-<td class="num">868</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aswizbiz+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aswizbiz+is%3Amerged+merged%3A%3E2022-08-12">39</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aswizbiz+merged%3A%3E2022-08-12">2</a></td>
-<td class="num">44186</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/andpopov/64-64"></td>
-<td>
-<a href="https://github.com/andpopov">@andpopov</a><br><span class="subtitle">Andrey Popov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aandpopov+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">10</a></td>
-<td class="num">
-<span class="firebrick">4096</span><br><span class="subtitle" title="The actual value of the metric was capped">5198</span>
-</td>
-<td class="num">519</td>
-<td class="num">1299</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandpopov+created%3A%3E2022-08-12">1</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandpopov+is%3Amerged+merged%3A%3E2022-08-12">4</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aandpopov+merged%3A%3E2022-08-12">5</a></td>
-<td class="num">5946</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/andreoss/64-64"></td>
-<td>
-<a href="https://github.com/andreoss">@andreoss</a><br><span class="subtitle"></span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aandreoss+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">42</a></td>
-<td class="num">2660</td>
-<td class="num">63</td>
-<td class="num">166</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandreoss+created%3A%3E2022-08-12">4</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandreoss+is%3Amerged+merged%3A%3E2022-08-12">16</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aandreoss+merged%3A%3E2022-08-12">2</a></td>
-<td class="num">7370</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/dgarus/64-64"></td>
-<td>
-<a href="https://github.com/dgarus">@dgarus</a><br><span class="subtitle">Denis Garus</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Adgarus+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">11</a></td>
-<td class="num">6543</td>
-<td class="num">594</td>
-<td class="num">594</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Adgarus+created%3A%3E2022-08-12">4</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Adgarus+is%3Amerged+merged%3A%3E2022-08-12">11</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Adgarus+merged%3A%3E2022-08-12">35</a></td>
-<td class="num">14798</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/eugenedar/64-64"></td>
-<td>
-<a href="https://github.com/eugenedar">@eugenedar</a><br><span class="subtitle"></span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aeugenedar+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">15</a></td>
-<td class="num">360</td>
-<td class="num">24</td>
-<td class="num">180</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aeugenedar+created%3A%3E2022-08-12">8</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aeugenedar+is%3Amerged+merged%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aeugenedar+merged%3A%3E2022-08-12">3</a></td>
-<td class="num">1785</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/graur/64-64"></td>
-<td>
-<a href="https://github.com/graur">@graur</a><br><span class="subtitle">Graur Andrew</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Agraur+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">33</a></td>
-<td class="num">2312</td>
-<td class="num">70</td>
-<td class="num">144</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Agraur+created%3A%3E2022-08-12">18</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Agraur+is%3Amerged+merged%3A%3E2022-08-12">16</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Agraur+merged%3A%3E2022-08-12">16</a></td>
-<td class="num">9777</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/icemachined/64-64"></td>
-<td>
-<a href="https://github.com/icemachined">@icemachined</a><br><span class="subtitle">Dmitry Morozovsky</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aicemachined+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">2</a></td>
-<td class="num">932</td>
-<td class="num">466</td>
-<td class="num">466</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aicemachined+created%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aicemachined+is%3Amerged+merged%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aicemachined+merged%3A%3E2022-08-12">1</a></td>
-<td class="num">1692</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/includealex/64-64"></td>
-<td>
-<a href="https://github.com/includealex">@includealex</a><br><span class="subtitle">Aleksandr Mishin</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aincludealex+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a></td>
-<td class="num">
-<span class="firebrick">2048</span><br><span class="subtitle" title="The actual value of the metric was capped">147120</span>
-</td>
-<td class="num">147120</td>
-<td class="num">73560</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aincludealex+created%3A%3E2022-08-12">4</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aincludealex+is%3Amerged+merged%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aincludealex+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">2753</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/ivan-egorov42/64-64"></td>
-<td>
-<a href="https://github.com/ivan-egorov42">@ivan-egorov42</a><br><span class="subtitle">Ivan Egorov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aivan-egorov42+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">51</a></td>
-<td class="num">454</td>
-<td class="num">8</td>
-<td class="num">151</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aivan-egorov42+created%3A%3E2022-08-12">6</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aivan-egorov42+is%3Amerged+merged%3A%3E2022-08-12">3</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aivan-egorov42+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">1759</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/karina5005/64-64"></td>
-<td>
-<a href="https://github.com/karina5005">@karina5005</a><br><span class="subtitle">Anisimova Karina</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Akarina5005+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">13</a></td>
-<td class="num">632</td>
-<td class="num">48</td>
-<td class="num">316</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akarina5005+created%3A%3E2022-08-12">3</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akarina5005+is%3Amerged+merged%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Akarina5005+merged%3A%3E2022-08-12">2</a></td>
-<td class="num">1647</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/kerelape/64-64"></td>
-<td>
-<a href="https://github.com/kerelape">@kerelape</a><br><span class="subtitle"></span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Akerelape+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a></td>
-<td class="num">20</td>
-<td class="num">0</td>
-<td class="num">20</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akerelape+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akerelape+is%3Amerged+merged%3A%3E2022-08-12">1</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Akerelape+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">270</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/kgevorkyan/64-64"></td>
-<td>
-<a href="https://github.com/kgevorkyan">@kgevorkyan</a><br><span class="subtitle">Kirill Gevorkyan</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Akgevorkyan+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">4</a></td>
-<td class="num">356</td>
-<td class="num">89</td>
-<td class="num">89</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akgevorkyan+created%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akgevorkyan+is%3Amerged+merged%3A%3E2022-08-12">4</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2022-08-12">11</a></td>
-<td class="num">3126</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/kniazkov/64-64"></td>
-<td>
-<a href="https://github.com/kniazkov">@kniazkov</a><br><span class="subtitle">Ivan Kniazkov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Akniazkov+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a></td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akniazkov+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akniazkov+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Akniazkov+merged%3A%3E2022-08-12">1</a></td>
-<td class="num">150</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/levbagryansky/64-64"></td>
-<td>
-<a href="https://github.com/levbagryansky">@levbagryansky</a><br><span class="subtitle">Lev Bagryansky</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">77</a></td>
-<td class="num">
-<span class="firebrick">13312</span><br><span class="subtitle" title="The actual value of the metric was capped">13443</span>
-</td>
-<td class="num">174</td>
-<td class="num">1034</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2022-08-12">12</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+merged%3A%3E2022-08-12">13</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Alevbagryansky+merged%3A%3E2022-08-12">4</a></td>
-<td class="num">18147</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/maxonfjvipon/64-64"></td>
-<td>
-<a href="https://github.com/maxonfjvipon">@maxonfjvipon</a><br><span class="subtitle">Max Trunnikov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">4</a></td>
-<td class="num">258</td>
-<td class="num">64</td>
-<td class="num">129</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2022-08-12">2</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2022-08-12">1</a></td>
-<td class="num">928</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/mcjohn974/64-64"></td>
-<td>
-<a href="https://github.com/mcjohn974">@mcjohn974</a><br><span class="subtitle">Viktar Makouski</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Amcjohn974+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a></td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amcjohn974+created%3A%3E2022-08-12">1</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amcjohn974+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Amcjohn974+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">50</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/mikhaillipanin/64-64"></td>
-<td>
-<a href="https://github.com/mikhaillipanin">@mikhaillipanin</a><br><span class="subtitle">Mikhail Lipanin</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Amikhaillipanin+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">7</a></td>
-<td class="num">
-<span class="firebrick">3072</span><br><span class="subtitle" title="The actual value of the metric was capped">3106</span>
-</td>
-<td class="num">443</td>
-<td class="num">1035</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amikhaillipanin+created%3A%3E2022-08-12">7</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amikhaillipanin+is%3Amerged+merged%3A%3E2022-08-12">3</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Amikhaillipanin+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">4207</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/mnj2kk/64-64"></td>
-<td>
-<a href="https://github.com/mnj2kk">@mnj2kk</a><br><span class="subtitle">Ayrat Sharipov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Amnj2kk+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a></td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amnj2kk+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amnj2kk+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Amnj2kk+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">0</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/mximp/64-64"></td>
-<td>
-<a href="https://github.com/mximp">@mximp</a><br><span class="subtitle">Max Petrov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">11</a></td>
-<td class="num">3395</td>
-<td class="num">308</td>
-<td class="num">485</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-08-12">9</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2022-08-12">7</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2022-08-12">11</a></td>
-<td class="num">7300</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/nulls/64-64"></td>
-<td>
-<a href="https://github.com/nulls">@nulls</a><br><span class="subtitle">Nariman Abdullin</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Anulls+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">9</a></td>
-<td class="num">
-<span class="firebrick">9216</span><br><span class="subtitle" title="The actual value of the metric was capped">14092</span>
-</td>
-<td class="num">1565</td>
-<td class="num">1565</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anulls+created%3A%3E2022-08-12">11</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anulls+is%3Amerged+merged%3A%3E2022-08-12">9</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Anulls+merged%3A%3E2022-08-12">29</a></td>
-<td class="num">16411</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/olenagerasimova/64-64"></td>
-<td>
-<a href="https://github.com/olenagerasimova">@olenagerasimova</a><br><span class="subtitle">Alena</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aolenagerasimova+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">11</a></td>
-<td class="num">6187</td>
-<td class="num">562</td>
-<td class="num">515</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolenagerasimova+created%3A%3E2022-08-12">5</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolenagerasimova+is%3Amerged+merged%3A%3E2022-08-12">12</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aolenagerasimova+merged%3A%3E2022-08-12">21</a></td>
-<td class="num">12642</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/olesiasub/64-64"></td>
-<td>
-<a href="https://github.com/olesiasub">@olesiasub</a><br><span class="subtitle">Olesia Subbotina</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Aolesiasub+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">101</a></td>
-<td class="num">
-<span class="firebrick">5120</span><br><span class="subtitle" title="The actual value of the metric was capped">16869</span>
-</td>
-<td class="num">167</td>
-<td class="num">3373</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolesiasub+created%3A%3E2022-08-12">7</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolesiasub+is%3Amerged+merged%3A%3E2022-08-12">5</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Aolesiasub+merged%3A%3E2022-08-12">1</a></td>
-<td class="num">7375</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/petertrr/64-64"></td>
-<td>
-<a href="https://github.com/petertrr">@petertrr</a><br><span class="subtitle">Peter Trifanov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Apetertrr+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">15</a></td>
-<td class="num">6018</td>
-<td class="num">401</td>
-<td class="num">401</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apetertrr+created%3A%3E2022-08-12">13</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apetertrr+is%3Amerged+merged%3A%3E2022-08-12">15</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Apetertrr+merged%3A%3E2022-08-12">41</a></td>
-<td class="num">16643</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/pollyvolk/64-64"></td>
-<td>
-<a href="https://github.com/pollyvolk">@pollyvolk</a><br><span class="subtitle"></span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Apollyvolk+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">18</a></td>
-<td class="num">
-<span class="firebrick">6144</span><br><span class="subtitle" title="The actual value of the metric was capped">22402</span>
-</td>
-<td class="num">1244</td>
-<td class="num">3733</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apollyvolk+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apollyvolk+is%3Amerged+merged%3A%3E2022-08-12">6</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Apollyvolk+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">7734</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/potatmen/64-64"></td>
-<td>
-<a href="https://github.com/potatmen">@potatmen</a><br><span class="subtitle">Anton Shatokhin</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Apotatmen+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a></td>
-<td class="num">312</td>
-<td class="num">312</td>
-<td class="num">104</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apotatmen+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apotatmen+is%3Amerged+merged%3A%3E2022-08-12">3</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Apotatmen+merged%3A%3E2022-08-12">1</a></td>
-<td class="num">1217</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/sanyavertolet/64-64"></td>
-<td>
-<a href="https://github.com/sanyavertolet">@sanyavertolet</a><br><span class="subtitle">Alexander Frolov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Asanyavertolet+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">13</a></td>
-<td class="num">
-<span class="firebrick">13312</span><br><span class="subtitle" title="The actual value of the metric was capped">13678</span>
-</td>
-<td class="num">1052</td>
-<td class="num">1052</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Asanyavertolet+created%3A%3E2022-08-12">5</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Asanyavertolet+is%3Amerged+merged%3A%3E2022-08-12">13</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Asanyavertolet+merged%3A%3E2022-08-12">22</a></td>
-<td class="num">20177</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/yasamprom/64-64"></td>
-<td>
-<a href="https://github.com/yasamprom">@yasamprom</a><br><span class="subtitle">Stepan Strunkov</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Ayasamprom+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">8</a></td>
-<td class="num">844</td>
-<td class="num">105</td>
-<td class="num">168</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayasamprom+created%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayasamprom+is%3Amerged+merged%3A%3E2022-08-12">5</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Ayasamprom+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">2134</td>
-</tr>
-<tr>
-<td class="avatar"><img src="https://socatar.com/github/nypiaka/64-64"></td>
-<td>
-<a href="https://github.com/nypiaka">@nypiaka</a><br><span class="subtitle">Nypiaka</span>
-</td>
-<td class="num"><a href="https://github.com/search?q=author%3Anypiaka+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a></td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num">0</td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anypiaka+created%3A%3E2022-08-12">1</a></td>
-<td class="num"><a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anypiaka+is%3Amerged+merged%3A%3E2022-08-12">0</a></td>
-<td class="num"><a href="https://github.com/search?q=reviewed-by%3Anypiaka+merged%3A%3E2022-08-12">0</a></td>
-<td class="num">50</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td colspan="2" style="text-align:right">Total:</td>
-<td class="num">637</td>
-<td class="num">324150</td>
-<td class="num"></td>
-<td class="num"></td>
-<td class="num">174</td>
-<td class="num">210</td>
-<td class="num">234</td>
-<td class="num"></td>
-</tr>
-<tr>
-<td colspan="2" style="text-align:right">Average:</td>
-<td class="num">21</td>
-<td class="num">10456</td>
-<td class="num">5315</td>
-<td class="num">3346</td>
-<td class="num">7</td>
-<td class="num">7</td>
-<td class="num">10</td>
-<td class="num"></td>
-</tr>
-</tfoot>
-</table></article><footer><p>The page was generated by <a href="https://github.com/yegor256/cobench">cobench 0.0.27</a> on 2022-09-02 09:43:22 +0000. "Commits" is the total number of non-merge <a href="https://github.com/git-guides/git-commit">Git commits</a> to the default branch, authored by the user. "HoC" is the total number of user's <a href="https://www.yegor256.com/2014/11/14/hits-of-code.html">hits of code</a>. "Issues" is the total number of issues submitted by the user. <a href="https://docs.github.com/en/issues">issues</a>. "Pulls" is the total number of <a href="https://docs.github.com/en/pull-requests">pull requests</a> created by the user and already merged. "Reviews" is the total number of merged pull requests that were reviewed by the user. "Score" is an arithmetic summary of all metrics with multipliers: one HoC costs 1 point, one Pull — 250 points, one Issue — 50 points, one Commit — 5 points, one Review — 150 points.</p>
-<p>"HpP" stands for HoC per Pull, "HpC" stands for HoC per Commit.</p>
-<p>The numbers you see reflect the activity of the last <b>21 days</b>.<br>The XML with the data <a href="index.xml">is here</a>.</p></footer></section></body>
+  </head>
+  <body>
+    <section>
+      <header>
+        <p>
+          <a href="">
+            <img src="https://raw.githubusercontent.com/yegor256/cobench/master/logo.svg" style="width:64px"/>
+          </a>
+        </p>
+      </header>
+      <article>
+        <table id="metrics">
+          <colgroup>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th colspan="2"/>
+              <th class="sorter num">Commits</th>
+              <th class="sorter num">HoC</th>
+              <th class="sorter num">HpC</th>
+              <th class="sorter num">HpP</th>
+              <th class="sorter num">Issues</th>
+              <th class="sorter num">Pulls</th>
+              <th class="sorter num">Reviews</th>
+              <th class="sorter num">Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/yegor256/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/yegor256">@yegor256</a>
+                <br/>
+                <span class="subtitle">Yegor Bugayenko</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">81</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">0</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">3591</span>
+              </td>
+              <td class="num">44</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2022-08-12">32</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2022-08-12">7</a>
+              </td>
+              <td class="num">3055</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/0x6675636b796f75676974687562/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/0x6675636b796f75676974687562">@0x6675636b796f75676974687562</a>
+                <br/>
+                <span class="subtitle">Andrey Shcheglov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3A0x6675636b796f75676974687562+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">26</a>
+              </td>
+              <td class="num">2525</td>
+              <td class="num">97</td>
+              <td class="num">420</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3A0x6675636b796f75676974687562+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3A0x6675636b796f75676974687562+is%3Amerged+merged%3A%3E2022-08-12">6</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3A0x6675636b796f75676974687562+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">4155</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/akuleshov7/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/akuleshov7">@akuleshov7</a>
+                <br/>
+                <span class="subtitle">Andrey Kuleshov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aakuleshov7+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">7</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">7168</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">14596</span>
+              </td>
+              <td class="num">2085</td>
+              <td class="num">2085</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aakuleshov7+created%3A%3E2022-08-12">18</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aakuleshov7+is%3Amerged+merged%3A%3E2022-08-12">7</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aakuleshov7+merged%3A%3E2022-08-12">17</a>
+              </td>
+              <td class="num">12403</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/andrewt0301/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/andrewt0301">@andrewt0301</a>
+                <br/>
+                <span class="subtitle">Andrei Tatarnikov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aandrewt0301+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a>
+              </td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandrewt0301+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandrewt0301+is%3Amerged+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aandrewt0301+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/anisimova5005/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/anisimova5005">@anisimova5005</a>
+                <br/>
+                <span class="subtitle"/>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aanisimova5005+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">0</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">79</span>
+              </td>
+              <td class="num">79</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aanisimova5005+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aanisimova5005+is%3Amerged+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aanisimova5005+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">5</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/arrgentum/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/arrgentum">@arrgentum</a>
+                <br/>
+                <span class="subtitle">Alexey Votintsev</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aarrgentum+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a>
+              </td>
+              <td class="num">96</td>
+              <td class="num">96</td>
+              <td class="num">96</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aarrgentum+created%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aarrgentum+is%3Amerged+merged%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aarrgentum+merged%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">601</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/cheshiriks/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/cheshiriks">@cheshiriks</a>
+                <br/>
+                <span class="subtitle">Vladislav Frolov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Acheshiriks+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">2</a>
+              </td>
+              <td class="num">1868</td>
+              <td class="num">934</td>
+              <td class="num">934</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Acheshiriks+created%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Acheshiriks+is%3Amerged+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Acheshiriks+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">2778</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/chgen/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/chgen">@chgen</a>
+                <br/>
+                <span class="subtitle">Evgeny Chugunnyy (John)</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Achgen+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">4</a>
+              </td>
+              <td class="num">274</td>
+              <td class="num">68</td>
+              <td class="num">68</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Achgen+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Achgen+is%3Amerged+merged%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Achgen+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">1294</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/swizbiz/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/swizbiz">@swizbiz</a>
+                <br/>
+                <span class="subtitle">Aleksei Borodin</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aswizbiz+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">52</a>
+              </td>
+              <td class="num">33876</td>
+              <td class="num">651</td>
+              <td class="num">868</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aswizbiz+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aswizbiz+is%3Amerged+merged%3A%3E2022-08-12">39</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aswizbiz+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">44186</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/andpopov/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/andpopov">@andpopov</a>
+                <br/>
+                <span class="subtitle">Andrey Popov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aandpopov+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">10</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">4096</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">5198</span>
+              </td>
+              <td class="num">519</td>
+              <td class="num">1299</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandpopov+created%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandpopov+is%3Amerged+merged%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aandpopov+merged%3A%3E2022-08-12">5</a>
+              </td>
+              <td class="num">5946</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/andreoss/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/andreoss">@andreoss</a>
+                <br/>
+                <span class="subtitle"/>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aandreoss+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">42</a>
+              </td>
+              <td class="num">2660</td>
+              <td class="num">63</td>
+              <td class="num">166</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandreoss+created%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandreoss+is%3Amerged+merged%3A%3E2022-08-12">16</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aandreoss+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">7370</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/dgarus/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/dgarus">@dgarus</a>
+                <br/>
+                <span class="subtitle">Denis Garus</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Adgarus+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">12</a>
+              </td>
+              <td class="num">6885</td>
+              <td class="num">573</td>
+              <td class="num">573</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Adgarus+created%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Adgarus+is%3Amerged+merged%3A%3E2022-08-12">12</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Adgarus+merged%3A%3E2022-08-12">35</a>
+              </td>
+              <td class="num">15395</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/eugenedar/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/eugenedar">@eugenedar</a>
+                <br/>
+                <span class="subtitle"/>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aeugenedar+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">15</a>
+              </td>
+              <td class="num">360</td>
+              <td class="num">24</td>
+              <td class="num">180</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aeugenedar+created%3A%3E2022-08-12">8</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aeugenedar+is%3Amerged+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aeugenedar+merged%3A%3E2022-08-12">3</a>
+              </td>
+              <td class="num">1785</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/graur/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/graur">@graur</a>
+                <br/>
+                <span class="subtitle">Graur Andrew</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Agraur+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">35</a>
+              </td>
+              <td class="num">2352</td>
+              <td class="num">67</td>
+              <td class="num">138</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Agraur+created%3A%3E2022-08-12">19</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Agraur+is%3Amerged+merged%3A%3E2022-08-12">17</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Agraur+merged%3A%3E2022-08-12">17</a>
+              </td>
+              <td class="num">10277</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/icemachined/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/icemachined">@icemachined</a>
+                <br/>
+                <span class="subtitle">Dmitry Morozovsky</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aicemachined+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">2</a>
+              </td>
+              <td class="num">932</td>
+              <td class="num">466</td>
+              <td class="num">466</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aicemachined+created%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aicemachined+is%3Amerged+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aicemachined+merged%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">1692</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/includealex/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/includealex">@includealex</a>
+                <br/>
+                <span class="subtitle">Aleksandr Mishin</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aincludealex+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">1</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">2048</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">147120</span>
+              </td>
+              <td class="num">147120</td>
+              <td class="num">73560</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aincludealex+created%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aincludealex+is%3Amerged+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aincludealex+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">2753</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/ivan-egorov42/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/ivan-egorov42">@ivan-egorov42</a>
+                <br/>
+                <span class="subtitle">Ivan Egorov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aivan-egorov42+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">51</a>
+              </td>
+              <td class="num">454</td>
+              <td class="num">8</td>
+              <td class="num">151</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aivan-egorov42+created%3A%3E2022-08-12">6</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aivan-egorov42+is%3Amerged+merged%3A%3E2022-08-12">3</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aivan-egorov42+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">1759</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/karina5005/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/karina5005">@karina5005</a>
+                <br/>
+                <span class="subtitle">Anisimova Karina</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Akarina5005+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">13</a>
+              </td>
+              <td class="num">632</td>
+              <td class="num">48</td>
+              <td class="num">316</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akarina5005+created%3A%3E2022-08-12">3</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akarina5005+is%3Amerged+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Akarina5005+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">1647</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/kerelape/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/kerelape">@kerelape</a>
+                <br/>
+                <span class="subtitle"/>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Akerelape+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a>
+              </td>
+              <td class="num">20</td>
+              <td class="num">0</td>
+              <td class="num">20</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akerelape+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akerelape+is%3Amerged+merged%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Akerelape+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">270</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/kgevorkyan/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/kgevorkyan">@kgevorkyan</a>
+                <br/>
+                <span class="subtitle">Kirill Gevorkyan</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Akgevorkyan+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">4</a>
+              </td>
+              <td class="num">356</td>
+              <td class="num">89</td>
+              <td class="num">89</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akgevorkyan+created%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akgevorkyan+is%3Amerged+merged%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2022-08-12">11</a>
+              </td>
+              <td class="num">3126</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/kniazkov/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/kniazkov">@kniazkov</a>
+                <br/>
+                <span class="subtitle">Ivan Kniazkov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Akniazkov+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">0</a>
+              </td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akniazkov+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akniazkov+is%3Amerged+merged%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Akniazkov+merged%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">150</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/levbagryansky/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/levbagryansky">@levbagryansky</a>
+                <br/>
+                <span class="subtitle">Lev Bagryansky</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">77</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">13312</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">13443</span>
+              </td>
+              <td class="num">174</td>
+              <td class="num">1034</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2022-08-12">12</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+merged%3A%3E2022-08-12">13</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Alevbagryansky+merged%3A%3E2022-08-12">4</a>
+              </td>
+              <td class="num">18147</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/maxonfjvipon/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/maxonfjvipon">@maxonfjvipon</a>
+                <br/>
+                <span class="subtitle">Max Trunnikov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2022-08-12+is%3Apublic+merge%3Afalse">4</a>
+              </td>
+              <td class="num">258</td>
+              <td class="num">64</td>
+              <td class="num">129</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2022-08-12">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2022-08-12">2</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2022-08-12">1</a>
+              </td>
+              <td class="num">928</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/mcjohn974/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/mcjohn974">@mcjohn974</a>
+                <br/>
+                <span class="subtitle">Viktar Makouski</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Amcjohn974+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">0</a>
+              </td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amcjohn974+created%3A%3E2022-08-13">1</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amcjohn974+is%3Amerged+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Amcjohn974+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">50</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/mikhaillipanin/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/mikhaillipanin">@mikhaillipanin</a>
+                <br/>
+                <span class="subtitle">Mikhail Lipanin</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Amikhaillipanin+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">9</a>
+              </td>
+              <td class="num">3230</td>
+              <td class="num">358</td>
+              <td class="num">807</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amikhaillipanin+created%3A%3E2022-08-13">6</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amikhaillipanin+is%3Amerged+merged%3A%3E2022-08-13">4</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Amikhaillipanin+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">4575</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/mnj2kk/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/mnj2kk">@mnj2kk</a>
+                <br/>
+                <span class="subtitle">Ayrat Sharipov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Amnj2kk+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">0</a>
+              </td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amnj2kk+created%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amnj2kk+is%3Amerged+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Amnj2kk+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/mximp/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/mximp">@mximp</a>
+                <br/>
+                <span class="subtitle">Max Petrov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">12</a>
+              </td>
+              <td class="num">3407</td>
+              <td class="num">283</td>
+              <td class="num">425</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-08-13">9</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2022-08-13">8</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2022-08-13">11</a>
+              </td>
+              <td class="num">7567</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/nulls/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/nulls">@nulls</a>
+                <br/>
+                <span class="subtitle">Nariman Abdullin</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Anulls+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">10</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">10240</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">14130</span>
+              </td>
+              <td class="num">1413</td>
+              <td class="num">1413</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anulls+created%3A%3E2022-08-13">11</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anulls+is%3Amerged+merged%3A%3E2022-08-13">10</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Anulls+merged%3A%3E2022-08-13">31</a>
+              </td>
+              <td class="num">17990</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/olenagerasimova/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/olenagerasimova">@olenagerasimova</a>
+                <br/>
+                <span class="subtitle">Alena</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aolenagerasimova+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">11</a>
+              </td>
+              <td class="num">6187</td>
+              <td class="num">562</td>
+              <td class="num">515</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolenagerasimova+created%3A%3E2022-08-13">5</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolenagerasimova+is%3Amerged+merged%3A%3E2022-08-13">12</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aolenagerasimova+merged%3A%3E2022-08-13">22</a>
+              </td>
+              <td class="num">12792</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/olesiasub/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/olesiasub">@olesiasub</a>
+                <br/>
+                <span class="subtitle">Olesia Subbotina</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Aolesiasub+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">116</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">5120</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">17124</span>
+              </td>
+              <td class="num">147</td>
+              <td class="num">3424</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aolesiasub+created%3A%3E2022-08-13">8</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aolesiasub+is%3Amerged+merged%3A%3E2022-08-13">5</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Aolesiasub+merged%3A%3E2022-08-13">1</a>
+              </td>
+              <td class="num">7500</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/petertrr/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/petertrr">@petertrr</a>
+                <br/>
+                <span class="subtitle">Peter Trifanov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Apetertrr+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">18</a>
+              </td>
+              <td class="num">6120</td>
+              <td class="num">340</td>
+              <td class="num">340</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apetertrr+created%3A%3E2022-08-13">13</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apetertrr+is%3Amerged+merged%3A%3E2022-08-13">18</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Apetertrr+merged%3A%3E2022-08-13">47</a>
+              </td>
+              <td class="num">18410</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/pollyvolk/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/pollyvolk">@pollyvolk</a>
+                <br/>
+                <span class="subtitle"/>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Apollyvolk+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">21</a>
+              </td>
+              <td class="num">
+                <span class="firebrick">6144</span>
+                <br/>
+                <span class="subtitle" title="The actual value of the metric was capped">22890</span>
+              </td>
+              <td class="num">1090</td>
+              <td class="num">3815</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apollyvolk+created%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apollyvolk+is%3Amerged+merged%3A%3E2022-08-13">6</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Apollyvolk+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">7749</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/potatmen/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/potatmen">@potatmen</a>
+                <br/>
+                <span class="subtitle">Anton Shatokhin</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Apotatmen+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">1</a>
+              </td>
+              <td class="num">312</td>
+              <td class="num">312</td>
+              <td class="num">104</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Apotatmen+created%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Apotatmen+is%3Amerged+merged%3A%3E2022-08-13">3</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Apotatmen+merged%3A%3E2022-08-13">1</a>
+              </td>
+              <td class="num">1217</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/sanyavertolet/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/sanyavertolet">@sanyavertolet</a>
+                <br/>
+                <span class="subtitle">Alexander Frolov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Asanyavertolet+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">14</a>
+              </td>
+              <td class="num">13808</td>
+              <td class="num">986</td>
+              <td class="num">986</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Asanyavertolet+created%3A%3E2022-08-13">5</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Asanyavertolet+is%3Amerged+merged%3A%3E2022-08-13">14</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Asanyavertolet+merged%3A%3E2022-08-13">23</a>
+              </td>
+              <td class="num">21078</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/yasamprom/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/yasamprom">@yasamprom</a>
+                <br/>
+                <span class="subtitle">Stepan Strunkov</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Ayasamprom+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">8</a>
+              </td>
+              <td class="num">844</td>
+              <td class="num">105</td>
+              <td class="num">168</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayasamprom+created%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayasamprom+is%3Amerged+merged%3A%3E2022-08-13">5</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Ayasamprom+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">2134</td>
+            </tr>
+            <tr>
+              <td class="avatar">
+                <img src="https://socatar.com/github/nypiaka/64-64"/>
+              </td>
+              <td>
+                <a href="https://github.com/nypiaka">@nypiaka</a>
+                <br/>
+                <span class="subtitle">Nypiaka</span>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=author%3Anypiaka+author-date%3A%3E2022-08-13+is%3Apublic+merge%3Afalse">0</a>
+              </td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Anypiaka+created%3A%3E2022-08-13">1</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Anypiaka+is%3Amerged+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">
+                <a href="https://github.com/search?q=reviewed-by%3Anypiaka+merged%3A%3E2022-08-13">0</a>
+              </td>
+              <td class="num">50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2" style="text-align:right">Total:</td>
+              <td class="num">660</td>
+              <td class="num">325627</td>
+              <td class="num"/>
+              <td class="num"/>
+              <td class="num">178</td>
+              <td class="num">224</td>
+              <td class="num">247</td>
+              <td class="num"/>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:right">Average:</td>
+              <td class="num">22</td>
+              <td class="num">10504</td>
+              <td class="num">5295</td>
+              <td class="num">3261</td>
+              <td class="num">7</td>
+              <td class="num">7</td>
+              <td class="num">10</td>
+              <td class="num"/>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+      <footer>
+        <p>The page was generated by <a href="https://github.com/yegor256/cobench">cobench 0.0.28</a> on 2022-09-03 00:13:26 +0000. "Commits" is the total number of non-merge <a href="https://github.com/git-guides/git-commit">Git commits</a> to the default branch, authored by the user. "HoC" is the total number of user's <a href="https://www.yegor256.com/2014/11/14/hits-of-code.html">hits of code</a>. "Issues" is the total number of issues submitted by the user. <a href="https://docs.github.com/en/issues">issues</a>. "Pulls" is the total number of <a href="https://docs.github.com/en/pull-requests">pull requests</a> created by the user and already merged. "Reviews" is the total number of merged pull requests that were reviewed by the user. "Score" is an arithmetic summary of all metrics with multipliers: one HoC costs 1 point, one Pull — 250 points, one Issue — 50 points, one Commit — 5 points, one Review — 150 points.</p>
+        <p>"HpP" stands for HoC per Pull, "HpC" stands for HoC per Commit.</p>
+        <p>The numbers you see reflect the activity of the last <b>21 days</b>.<br/>The XML with the data <a href="index.xml">is here</a>.</p>
+      </footer>
+    </section>
+  </body>
 </html>
