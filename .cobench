@@ -1,4 +1,4 @@
---days 28
+--days=28
 
 --include=artipie/*
 --include=cqfn/*
