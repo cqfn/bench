@@ -18,7 +18,7 @@ jobs:
         with:
           ruby-version: 2.7
       - run: gem install cobench
-      - run: cobench --verbose --token ${{ secrets.TOKEN }} --to gh-pages --days 21
+      - run: cobench --verbose --token ${{ secrets.TOKEN }} --to gh-pages
       - uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages

@@ -1,3 +1,5 @@
+--days 28
+
 --include=artipie/*
 --include=cqfn/*
 --include=objectionary/*
