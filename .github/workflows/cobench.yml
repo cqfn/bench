@@ -13,12 +13,14 @@ jobs:
   cobench:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
       - run: gem install cobench
       - run: cobench --verbose --token ${{ secrets.TOKEN }} --to gh-pages
+      - run: mkdir -p gh-pages/$(date +'%Y/%m/%d')
+      - run: cp gh-pages/index.xml gh-pages/$(date +'%Y/%m/%d')/index.xml
       - uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
