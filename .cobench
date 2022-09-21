@@ -1,4 +1,5 @@
 --days=28
+--delay=1200
 
 --include=artipie/*
 --include=cqfn/*
@@ -36,7 +37,6 @@
 --coder=kniazkov
 --coder=levbagryansky
 --coder=maxonfjvipon
---coder=mcjohn974
 --coder=mikhaillipanin
 --coder=mnj2kk
 --coder=mximp
@@ -48,4 +48,3 @@
 --coder=potatmen
 --coder=sanyavertolet
 --coder=yasamprom
---coder=nypiaka
