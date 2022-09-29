@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2022-09-29 04:33:39 +0000" days="28">
+<cobench time="2022-09-29 06:59:22 +0000" days="28">
   <titles>
     <title>Issues</title>
     <title>Reviews</title>
@@ -25,21 +25,21 @@
     <w id="Issues">217</w>
     <w id="Reviews">344</w>
     <w id="Msgs">1077</w>
-    <w id="Pulls">278</w>
-    <w id="HoC">523723</w>
-    <w id="Commits">815</w>
+    <w id="Pulls">279</w>
+    <w id="HoC">523764</w>
+    <w id="Commits">819</w>
   </totals>
   <averages>
     <w id="Issues">7</w>
     <w id="Reviews">13</w>
     <w id="Msgs">43</w>
     <w id="Pulls">9</w>
-    <w id="HoC">18059</w>
+    <w id="HoC">18060</w>
     <w id="Commits">29</w>
     <w id="CpP">3</w>
-    <w id="HpP">1458</w>
+    <w id="HpP">1457</w>
     <w id="HpC">948</w>
-    <w id="MpRP">2</w>
+    <w id="MpRP">1</w>
   </averages>
   <coders>
     <coder id="yegor256" details="Yegor Bugayenko">
@@ -53,12 +53,12 @@
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2022-09-01">12</m>
         <m id="Msgs">86</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2022-09-01">7</m>
-        <m id="HoC" actual="14436">7168</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-09-01+is%3Apublic+merge%3Afalse">239</m>
-        <m id="Score">15993</m>
+        <m id="HoC" actual="14396">7168</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2022-09-01+is%3Apublic+merge%3Afalse">242</m>
+        <m id="Score">16008</m>
         <m id="CpP">34</m>
-        <m id="HpP">2062</m>
-        <m id="HpC">60</m>
+        <m id="HpP">2056</m>
+        <m id="HpC">59</m>
         <m id="MpRP">4</m>
       </metrics>
     </coder>
@@ -461,22 +461,6 @@
         <m id="MpRP" hideZero="yes">0</m>
       </metrics>
     </coder>
-    <coder id="mnj2kk" details="Ayrat Sharipov">
-      <orgs/>
-      <metrics>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amnj2kk+created%3A%3E2022-09-01">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amnj2kk+merged%3A%3E2022-09-01">0</m>
-        <m id="Msgs">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amnj2kk+is%3Amerged+merged%3A%3E2022-09-01">0</m>
-        <m id="HoC">0</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amnj2kk+author-date%3A%3E2022-09-01+is%3Apublic+merge%3Afalse">0</m>
-        <m id="Score">0</m>
-        <m id="CpP" hideZero="yes">0</m>
-        <m id="HpP" hideZero="yes">0</m>
-        <m id="HpC" hideZero="yes">0</m>
-        <m id="MpRP" hideZero="yes">0</m>
-      </metrics>
-    </coder>
     <coder id="mximp" details="Max Petrov">
       <orgs>
         <org>objectionary</org>
@@ -485,14 +469,14 @@
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2022-09-01">4</m>
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2022-09-01">5</m>
         <m id="Msgs">41</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2022-09-01">8</m>
-        <m id="HoC">2603</m>
-        <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-09-01+is%3Apublic+merge%3Afalse">19</m>
-        <m id="Score">5853</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2022-09-01">9</m>
+        <m id="HoC">2684</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2022-09-01+is%3Apublic+merge%3Afalse">20</m>
+        <m id="Score">6189</m>
         <m id="CpP">2</m>
-        <m id="HpP">325</m>
-        <m id="HpC">137</m>
-        <m id="MpRP">3</m>
+        <m id="HpP">298</m>
+        <m id="HpC">134</m>
+        <m id="MpRP">2</m>
       </metrics>
     </coder>
     <coder id="nulls" details="Nariman Abdullin">
