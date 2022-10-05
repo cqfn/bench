@@ -7,6 +7,7 @@
 --include=polystat/*
 --include=saveourtool/*
 --include=unified-ast/*
+--include=icemachined/kafka-kotlin-native
 --include=yegor256/qulice
 --include=yegor256/cam
 --include=yegor256/rultor
