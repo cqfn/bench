@@ -2,6 +2,7 @@
 --delay=1200
 
 --include=artipie/*
+--include=pyrsia/*
 --include=cqfn/*
 --include=objectionary/*
 --include=polystat/*
