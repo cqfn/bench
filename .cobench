@@ -16,6 +16,7 @@
 --include=yegor256/xsline
 --include=yegor256/0pdd
 --include=yegor256/0capa
+--include=mximp/se-limitations-slr
 
 --coder=volodya-lombrozo
 --coder=yegor256
