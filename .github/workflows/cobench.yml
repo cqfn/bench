@@ -11,12 +11,12 @@ concurrency:
   cancel-in-progress: true
 jobs:
   cobench:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.2
       - run: gem install cobench
       - run: cobench --verbose --token ${{ secrets.TOKEN }} --to gh-pages
       - run: mkdir -p gh-pages/$(date +'%Y/%m/%d')
