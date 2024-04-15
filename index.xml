@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2024-04-15 00:27:44 +0000" days="28">
+<cobench time="2024-04-15 23:47:05 +0000" days="28">
   <titles>
     <title>Commits</title>
     <title>HoC</title>
@@ -24,24 +24,24 @@
     <w id="LcP">0</w>
   </weights>
   <totals>
-    <w id="Commits">500</w>
-    <w id="HoC">135991</w>
-    <w id="Issues">64</w>
+    <w id="Commits">511</w>
+    <w id="HoC">136615</w>
+    <w id="Issues">68</w>
     <w id="Pulls">86</w>
     <w id="LcP">776</w>
-    <w id="Reviews">46</w>
-    <w id="Msgs">75</w>
+    <w id="Reviews">49</w>
+    <w id="Msgs">79</w>
   </totals>
   <averages>
-    <w id="Commits">55</w>
-    <w id="HoC">15110</w>
-    <w id="Issues">10</w>
+    <w id="Commits">56</w>
+    <w id="HoC">15179</w>
+    <w id="Issues">9</w>
     <w id="Pulls">9</w>
     <w id="LcP">86</w>
     <w id="Reviews">4</w>
     <w id="Msgs">9</w>
-    <w id="CpP">17</w>
-    <w id="HpP">4625</w>
+    <w id="CpP">18</w>
+    <w id="HpP">4694</w>
     <w id="HpC">322</w>
     <w id="MpRP">2</w>
   </averages>
@@ -67,21 +67,21 @@
     </coder>
     <coder id="yegor256" details="Yegor Bugayenko">
       <orgs>
-        <org>yegor256</org>
         <org>objectionary</org>
+        <org>yegor256</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2024-03-18+is%3Apublic+merge%3Afalse">117</m>
-        <m id="HoC" actual="14793">1024</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2024-03-18">36</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2024-03-18+is%3Apublic+merge%3Afalse">128</m>
+        <m id="HoC" actual="15417">1024</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2024-03-18">38</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2024-03-18">1</m>
         <m id="LcP">2</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2024-03-18">8</m>
-        <m id="Msgs">34</m>
-        <m id="Score">5029</m>
-        <m id="CpP">117</m>
-        <m id="HpP">14793</m>
-        <m id="HpC">126</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2024-03-18">9</m>
+        <m id="Msgs">38</m>
+        <m id="Score">5354</m>
+        <m id="CpP">128</m>
+        <m id="HpP">15417</m>
+        <m id="HpC">120</m>
         <m id="MpRP">3</m>
       </metrics>
     </coder>
@@ -237,9 +237,9 @@
         <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akgevorkyan+created%3A%3E2024-03-18">0</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akgevorkyan+is%3Amerged+merged%3A%3E2024-03-18">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2024-03-18">5</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2024-03-18">7</m>
         <m id="Msgs">0</m>
-        <m id="Score">750</m>
+        <m id="Score">1050</m>
         <m id="CpP" hideZero="yes">0</m>
         <m id="HpP" hideZero="yes">0</m>
         <m id="HpC" hideZero="yes">0</m>
@@ -292,12 +292,12 @@
       <metrics>
         <m id="Commits" href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2024-03-18+is%3Apublic+merge%3Afalse">121</m>
         <m id="HoC" actual="48145">33792</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2024-03-18">15</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2024-03-18">16</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2024-03-18">33</m>
         <m id="LcP">7</m>
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2024-03-18">12</m>
         <m id="Msgs">19</m>
-        <m id="Score">45292</m>
+        <m id="Score">45342</m>
         <m id="CpP">3</m>
         <m id="HpP">1458</m>
         <m id="HpC">397</m>
@@ -345,12 +345,12 @@
       <metrics>
         <m id="Commits" href="https://github.com/search?q=author%3Ac71n93+author-date%3A%3E2024-03-18+is%3Apublic+merge%3Afalse">14</m>
         <m id="HoC">2131</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ac71n93+created%3A%3E2024-03-18">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ac71n93+created%3A%3E2024-03-18">1</m>
         <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ac71n93+is%3Amerged+merged%3A%3E2024-03-18">4</m>
         <m id="LcP">438</m>
         <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ac71n93+merged%3A%3E2024-03-18">0</m>
         <m id="Msgs">0</m>
-        <m id="Score">3201</m>
+        <m id="Score">3251</m>
         <m id="CpP">3</m>
         <m id="HpP">532</m>
         <m id="HpC">152</m>
