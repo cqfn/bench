@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cobench time="2024-11-25 23:59:37 +0000" days="28">
+<cobench time="2024-11-26 23:57:46 +0000" days="28">
   <titles>
     <title>Commits</title>
     <title>HoC</title>
@@ -24,26 +24,26 @@
     <w id="LcP">0</w>
   </weights>
   <totals>
-    <w id="Commits">757</w>
-    <w id="HoC">616774</w>
-    <w id="Issues">131</w>
-    <w id="Pulls">76</w>
-    <w id="LcP">366</w>
-    <w id="Reviews">42</w>
-    <w id="Msgs">56</w>
+    <w id="Commits">799</w>
+    <w id="HoC">611053</w>
+    <w id="Issues">142</w>
+    <w id="Pulls">77</w>
+    <w id="LcP">303</w>
+    <w id="Reviews">40</w>
+    <w id="Msgs">60</w>
   </totals>
   <averages>
-    <w id="Commits">126</w>
-    <w id="HoC">102795</w>
-    <w id="Issues">32</w>
+    <w id="Commits">133</w>
+    <w id="HoC">101842</w>
+    <w id="Issues">35</w>
     <w id="Pulls">12</w>
-    <w id="LcP">61</w>
-    <w id="Reviews">6</w>
-    <w id="Msgs">18</w>
-    <w id="CpP">9</w>
-    <w id="HpP">5556</w>
-    <w id="HpC">1988</w>
-    <w id="MpRP">0</w>
+    <w id="LcP">50</w>
+    <w id="Reviews">5</w>
+    <w id="Msgs">20</w>
+    <w id="CpP">10</w>
+    <w id="HpP">5509</w>
+    <w id="HpC">1960</w>
+    <w id="MpRP">1</w>
   </averages>
   <coders>
     <coder id="volodya-lombrozo" details="Volodya Lombrozo">
@@ -52,17 +52,17 @@
         <org>yegor256</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Avolodya-lombrozo+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">177</m>
-        <m id="HoC" actual="76750">29696</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Avolodya-lombrozo+created%3A%3E2024-10-28">19</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Avolodya-lombrozo+is%3Amerged+merged%3A%3E2024-10-28">29</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Avolodya-lombrozo+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">168</m>
+        <m id="HoC" actual="75294">28672</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Avolodya-lombrozo+created%3A%3E2024-10-29">19</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Avolodya-lombrozo+is%3Amerged+merged%3A%3E2024-10-29">28</m>
         <m id="LcP">5</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Avolodya-lombrozo+merged%3A%3E2024-10-28">2</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Avolodya-lombrozo+merged%3A%3E2024-10-29">2</m>
         <m id="Msgs">7</m>
-        <m id="Score">39116</m>
+        <m id="Score">37797</m>
         <m id="CpP">6</m>
-        <m id="HpP">2646</m>
-        <m id="HpC">433</m>
+        <m id="HpP">2689</m>
+        <m id="HpC">448</m>
         <m id="MpRP">0</m>
       </metrics>
     </coder>
@@ -72,17 +72,17 @@
         <org>yegor256</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">517</m>
-        <m id="HoC" actual="70869">14336</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2024-10-28">92</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2024-10-28">14</m>
-        <m id="LcP">43</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2024-10-28">17</m>
-        <m id="Msgs">26</m>
-        <m id="Score">27701</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayegor256+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">553</m>
+        <m id="HoC" actual="71810">15360</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayegor256+created%3A%3E2024-10-29">103</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayegor256+is%3Amerged+merged%3A%3E2024-10-29">15</m>
+        <m id="LcP">41</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayegor256+merged%3A%3E2024-10-29">14</m>
+        <m id="Msgs">23</m>
+        <m id="Score">29240</m>
         <m id="CpP">36</m>
-        <m id="HpP">5062</m>
-        <m id="HpC">137</m>
+        <m id="HpP">4787</m>
+        <m id="HpC">129</m>
         <m id="MpRP">0</m>
       </metrics>
     </coder>
@@ -91,12 +91,12 @@
         <org>saveourtool</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3A0x6675636b796f75676974687562+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">4</m>
+        <m id="Commits" href="https://github.com/search?q=author%3A0x6675636b796f75676974687562+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">4</m>
         <m id="HoC">253</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3A0x6675636b796f75676974687562+created%3A%3E2024-10-28">18</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3A0x6675636b796f75676974687562+is%3Amerged+merged%3A%3E2024-10-28">6</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3A0x6675636b796f75676974687562+created%3A%3E2024-10-29">18</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3A0x6675636b796f75676974687562+is%3Amerged+merged%3A%3E2024-10-29">6</m>
         <m id="LcP">14</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3A0x6675636b796f75676974687562+merged%3A%3E2024-10-28">10</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3A0x6675636b796f75676974687562+merged%3A%3E2024-10-29">10</m>
         <m id="Msgs">0</m>
         <m id="Score">4173</m>
         <m id="CpP">0</m>
@@ -108,12 +108,12 @@
     <coder id="andrewt0301" details="Andrei Tatarnikov">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Aandrewt0301+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aandrewt0301+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandrewt0301+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandrewt0301+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aandrewt0301+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aandrewt0301+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aandrewt0301+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aandrewt0301+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -125,12 +125,12 @@
     <coder id="arrgentum" details="Alexey Votintsev">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Aarrgentum+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aarrgentum+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aarrgentum+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aarrgentum+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aarrgentum+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aarrgentum+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aarrgentum+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aarrgentum+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -142,12 +142,12 @@
     <coder id="cheshiriks" details="Vladislav Frolov">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Acheshiriks+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Acheshiriks+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Acheshiriks+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Acheshiriks+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Acheshiriks+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Acheshiriks+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Acheshiriks+merged%3A%3E2024-10-28">1</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Acheshiriks+merged%3A%3E2024-10-29">1</m>
         <m id="Msgs">0</m>
         <m id="Score">150</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -159,12 +159,12 @@
     <coder id="chgen" details="Evgeny Chugunnyy (John)">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Achgen+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Achgen+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Achgen+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Achgen+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Achgen+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Achgen+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Achgen+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Achgen+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -176,12 +176,12 @@
     <coder id="dgarus" details="Denis Garus">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Adgarus+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Adgarus+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Adgarus+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Adgarus+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Adgarus+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Adgarus+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Adgarus+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Adgarus+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -195,12 +195,12 @@
         <org>saveourtool</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Aicemachined+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">2</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Aicemachined+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">2</m>
         <m id="HoC">186</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aicemachined+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aicemachined+is%3Amerged+merged%3A%3E2024-10-28">2</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Aicemachined+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Aicemachined+is%3Amerged+merged%3A%3E2024-10-29">2</m>
         <m id="LcP">2</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aicemachined+merged%3A%3E2024-10-28">5</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Aicemachined+merged%3A%3E2024-10-29">5</m>
         <m id="Msgs">0</m>
         <m id="Score">1446</m>
         <m id="CpP">1</m>
@@ -212,12 +212,12 @@
     <coder id="kgevorkyan" details="Kirill Gevorkyan">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Akgevorkyan+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Akgevorkyan+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akgevorkyan+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akgevorkyan+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akgevorkyan+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akgevorkyan+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2024-10-28">3</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akgevorkyan+merged%3A%3E2024-10-29">3</m>
         <m id="Msgs">0</m>
         <m id="Score">450</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -231,29 +231,29 @@
         <org>cqfn</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Akniazkov+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">8</m>
-        <m id="HoC" actual="15698">4096</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akniazkov+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akniazkov+is%3Amerged+merged%3A%3E2024-10-28">4</m>
-        <m id="LcP">294</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akniazkov+merged%3A%3E2024-10-28">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Akniazkov+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">29</m>
+        <m id="HoC" actual="22150">5120</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Akniazkov+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Akniazkov+is%3Amerged+merged%3A%3E2024-10-29">5</m>
+        <m id="LcP">235</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Akniazkov+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
-        <m id="Score">5136</m>
-        <m id="CpP">2</m>
-        <m id="HpP">3924</m>
-        <m id="HpC">1962</m>
+        <m id="Score">6515</m>
+        <m id="CpP">5</m>
+        <m id="HpP">4430</m>
+        <m id="HpC">763</m>
         <m id="MpRP" hideZero="yes">0</m>
       </metrics>
     </coder>
     <coder id="levbagryansky" details="Lev Bagryansky">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Alevbagryansky+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Alevbagryansky+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Alevbagryansky+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Alevbagryansky+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Alevbagryansky+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -267,29 +267,29 @@
         <org>objectionary</org>
       </orgs>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">49</m>
-        <m id="HoC" actual="453018">21504</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2024-10-28">2</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2024-10-28">21</m>
-        <m id="LcP">8</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2024-10-28">4</m>
-        <m id="Msgs">23</m>
-        <m id="Score">27814</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amaxonfjvipon+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">43</m>
+        <m id="HoC" actual="441360">21504</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amaxonfjvipon+created%3A%3E2024-10-29">2</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amaxonfjvipon+is%3Amerged+merged%3A%3E2024-10-29">21</m>
+        <m id="LcP">6</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amaxonfjvipon+merged%3A%3E2024-10-29">5</m>
+        <m id="Msgs">30</m>
+        <m id="Score">27969</m>
         <m id="CpP">2</m>
-        <m id="HpP">21572</m>
-        <m id="HpC">9245</m>
-        <m id="MpRP">0</m>
+        <m id="HpP">21017</m>
+        <m id="HpC">10264</m>
+        <m id="MpRP">1</m>
       </metrics>
     </coder>
     <coder id="mximp" details="Max Petrov">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Amximp+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Amximp+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Amximp+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Amximp+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -301,12 +301,12 @@
     <coder id="sanyavertolet" details="Alexander Frolov">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Asanyavertolet+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Asanyavertolet+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Asanyavertolet+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Asanyavertolet+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Asanyavertolet+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Asanyavertolet+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Asanyavertolet+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Asanyavertolet+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -318,12 +318,12 @@
     <coder id="c71n93" details="Roman Korostinskiy">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Ac71n93+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ac71n93+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ac71n93+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ac71n93+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ac71n93+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ac71n93+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ac71n93+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ac71n93+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -335,12 +335,12 @@
     <coder id="yanich96" details="Alekseeva Yana">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Ayanich96+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Ayanich96+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayanich96+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayanich96+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Ayanich96+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Ayanich96+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayanich96+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Ayanich96+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
@@ -352,12 +352,12 @@
     <coder id="dralexd" details="Alexander Drugakov">
       <orgs/>
       <metrics>
-        <m id="Commits" href="https://github.com/search?q=author%3Adralexd+author-date%3A%3E2024-10-28+is%3Apublic+merge%3Afalse">0</m>
+        <m id="Commits" href="https://github.com/search?q=author%3Adralexd+author-date%3A%3E2024-10-29+is%3Apublic+merge%3Afalse">0</m>
         <m id="HoC">0</m>
-        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Adralexd+created%3A%3E2024-10-28">0</m>
-        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Adralexd+is%3Amerged+merged%3A%3E2024-10-28">0</m>
+        <m id="Issues" href="https://github.com/search?q=in%3Acomments+type%3Aissue+author%3Adralexd+created%3A%3E2024-10-29">0</m>
+        <m id="Pulls" href="https://github.com/search?q=in%3Acomments+type%3Apr+author%3Adralexd+is%3Amerged+merged%3A%3E2024-10-29">0</m>
         <m id="LcP">0</m>
-        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Adralexd+merged%3A%3E2024-10-28">0</m>
+        <m id="Reviews" href="https://github.com/search?q=reviewed-by%3Adralexd+merged%3A%3E2024-10-29">0</m>
         <m id="Msgs">0</m>
         <m id="Score">0</m>
         <m id="CpP" hideZero="yes">0</m>
