@@ -1,6 +1,6 @@
 ---
 name: cobench
-on:
+'on':
   schedule:
     - cron: "23 23 * * *"
   push:
