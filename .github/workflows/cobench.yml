@@ -17,6 +17,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3
+          bundler-cache: true
       - run: gem install cobench
       - run: cobench --verbose --token ${{ secrets.TOKEN }} --to gh-pages
       - run: mkdir -p gh-pages/$(date +'%Y/%m/%d')
