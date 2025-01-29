@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: 3.3
       - run: gem install cobench
       - run: cobench --verbose --token ${{ secrets.TOKEN }} --to gh-pages
       - run: mkdir -p gh-pages/$(date +'%Y/%m/%d')
