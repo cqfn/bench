@@ -4,8 +4,13 @@
 version = 1
 [[annotations]]
 path = [
+    ".DS_Store",
+    ".gitattributes",
+    ".gitignore",
     "**.md",
     "**.txt",
+    "**/.DS_Store",
+    "**/.gitignore",
     "**/*.csv",
     "**/*.jpg",
     "**/*.json",
@@ -15,12 +20,8 @@ path = [
     "**/*.svg",
     "**/*.txt",
     "**/*.vm",
-    "**/.DS_Store",
-    "**/.gitignore",
     "**/CNAME",
-    ".DS_Store",
-    ".gitattributes",
-    ".gitignore",
+    ".cobench",
     "README.md",
     "renovate.json",
 ]
